@@ -15,6 +15,9 @@ moved within the setup rig to have a larger section of its field of view occupie
 board. The inital images are from two runs of the verification rig's program, and are located in the
 image_dump and image_dump2 subfolders. Subsequent images are in the sample_images subfolder.
 
+The complete dataset from the full runs totaled 183 images, and 16 were taken after the camera was
+moved. This script ran correctly on all of them, including ones where no projection is present.
+
 # Script development history:
 
 Due to the uneven lighting and bleeding of light around the edges of the projected circle,
