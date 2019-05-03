@@ -9,6 +9,9 @@ calibration plane real space transform is, printing the results to console. This
 determine that the best accuracy calibration config would be built using distcor04 and full grid
 homography. Results of its output can be found in the Calibration Configuration Accuracies appendix
 of the "Developing the calibration package and configuration" report in the camera_calibration repo.
+
+It should be noted that this script takes a very long time to run (~8 minutes for each of the 11
+grid images on an i7-6700HQ @ 3.1GHz).
 """
 from __future__ import print_function
 import camera_calibration as calib
