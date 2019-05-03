@@ -1,0 +1,3 @@
+git+https://github.com/ukatc/camera-calibration
+numpy
+opencv-python

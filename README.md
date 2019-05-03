@@ -7,3 +7,12 @@ This repo contains a collection of python scripts that provide functionality nee
 verification rig for the Very Large Telescope's MOONS instrument.
 The scripts were developed with the intention of having their code copied into the rigs software,
 and this repo is to act as a record of their original state before being integrated.
+
+## Scripts
+
+A small number of scripts developed for MOONS, specifically examples of how camera calibration
+configurations can be generated and used, are included in the `example_scripts` directory of the
+[camera calibration repository](https://github.com/ukatc/camera-calibration).
+
+The remainder of the scripts developed are included here, each in a subfolder along a sample of
+the images they were designed to run on.
